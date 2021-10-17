@@ -21,5 +21,9 @@ class StringCalculator {
     private static int toInt(String number){
 		return Integer.parseInt(number);
 	}
+    
+    private static String[] splitNumbers(String numbers, String divider){
+	    return numbers.split(divider);
+	}
 
 }
