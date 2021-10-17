@@ -17,5 +17,9 @@ class StringCalculator {
 			return sum(numList);
 		}
 	}
+    
+    private static int toInt(String number){
+		return Integer.parseInt(number);
+	}
 
 }
